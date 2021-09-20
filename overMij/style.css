@@ -13,7 +13,7 @@ h3{
 }
 
 h2{
-    background-color: #bce8e876;
+    background-color:lavender;
     color: rgb(57, 65, 72);
     font-family:'Courier New', Courier, monospace;
     font-weight:bolder;
@@ -22,4 +22,8 @@ h2{
 
 li{
     list-style-type: square;
+}
+
+a{
+    color:darkslateblue;
 }
