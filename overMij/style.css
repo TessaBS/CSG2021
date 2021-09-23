@@ -1,9 +1,19 @@
 *{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: beige;
 }
 
 p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h1{
+    background-color: aliceblue;
+    color:rgb(0, 0, 44);
 }
 
 h3{
@@ -27,4 +37,8 @@ li{
 
 a{
     color:darkslateblue;
+}
+
+.image {
+    width: 200px;
 }
