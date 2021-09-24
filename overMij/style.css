@@ -48,6 +48,11 @@ a{
     margin: 10px 15px 10px 15px;
 }
 
+#image{
+    width: 1220px;
+    margin: 10px 10px 10px 10px;
+}
+
 .bronnen{
     color:indianred;
     text-transform: uppercase;
