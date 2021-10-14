@@ -1,8 +1,6 @@
 html, body, h1 {
     padding: 0;
     margin: 0;
-    font-size: 0;
-    font-family: 0;
 }
 
 .bovenlijn{
@@ -11,11 +9,6 @@ html, body, h1 {
     margin: 0px;
     text-align: justify;
     display: flex;
-}
-
-p .titel{
-    text-align: center;
-    display: inline-block;
 }
 
 .titel{
@@ -28,9 +21,20 @@ p .titel{
     align-items: center;
     width: 100%;
     display: inline-block;
+}
+
+.naam{
+    text-align: center;
+    display: inline-block;
     font-family: 'Chewy', cursive;
     color: rgb(255, 255, 255);
-    font-size: 80px;
+    font-size: 40px;
+    max-width: 80%;
+}
+
+.afbeelding{
+    width: 10%;
+    margin: 0px;
 }
 
 .venus{
