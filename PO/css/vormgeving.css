@@ -20,6 +20,7 @@ html, body {
     height: 70px;
     align-items: center;
     width: 100%;
+    display: inline-block;
 }
 
 .venus{
@@ -44,8 +45,8 @@ html, body {
 li {
     font-size: 20px;
     width: 170px;
-    color: #111;
-    background-color: #AAA;
+    color: rgb(17, 17, 17);
+    background-color: rgb(170, 170, 170);
     padding: 7px 15px;
 }
 
@@ -66,5 +67,5 @@ a {
 }
 
 a:hover, li:hover {
-    font-variant: small-caps;
+    background-color:aliceblue;
 }
