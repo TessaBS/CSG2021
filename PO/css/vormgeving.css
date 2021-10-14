@@ -35,30 +35,25 @@ html, body {
     margin: 0px 5px;
 }
 
-
-
-
-
-
-
-
-li {
-    font-size: 20px;
-    width: 170px;
-    color: rgb(17, 17, 17);
-    background-color: rgb(170, 170, 170);
-    padding: 7px 15px;
-}
-
 .horizontaal {
     background-color: rgb(252, 140, 140);
     float: none;
+    margin: 0;
+    padding: 0 2.25%;
+}
+
+li {
+    font-size: 20px;
+    width: 15%;
+    color: rgb(17, 17, 17);
+    background-color: rgb(170, 170, 170);
+    padding: 7px 15px;
+    margin: 0px 1.5%;
 }
 
 .horizontaal li {
     display: inline-block;
     text-align: center;
-    margin: 0px 20px;
 }
 
 a {
