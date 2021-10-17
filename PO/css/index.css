@@ -138,12 +138,16 @@ a:hover, .link:hover {
 .byme{
     margin: 15px 40%;
     padding: 5px;
-    background-color: var(--lichtgroen);
+    width: 20%;
+    background-color: var(--groen);
     display: inline-block;
     display: flex;
     display: inline-block;
     text-align: center;
-    float: none;
-    display: block;
-    list-style-type: disc;
+    list-style-type: none;
+}
+
+.byme li{
+    margin: 5px;
+    background-color: var(--lichtlila);
 }
