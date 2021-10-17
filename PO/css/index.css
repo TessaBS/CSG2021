@@ -43,7 +43,7 @@ h1{
 }
 
 .afbeelding{
-    max-width: 20% !important;
+    max-width: 20%;
     background-color: var(--lila);
     margin: 10px;
     text-align: justify;
@@ -89,4 +89,8 @@ a {
 a:hover, li:hover {
     background-color: var(--lichtlila);
     color: var(--groen)
+}
+
+h1, #armbandjes{
+    font-size: 83px;
 }
