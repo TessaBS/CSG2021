@@ -3,8 +3,14 @@ html, body, h1 {
     margin: 0;
 }
 
+:root {
+    --lila:#cfb1cd;
+    --groen:#155929;
+    --lichtlila:#ffeffe;
+}
+
 .bovenlijn{
-    background-color: rgb(248, 121, 121);
+    background-color: var(--lila);
     padding: 15px;
     margin: 0px;
     text-align: justify;
@@ -12,7 +18,7 @@ html, body, h1 {
 }
 
 .titel{
-    background-color: rgb(186, 120, 120);
+    background-color: var(--lila);
     margin: 5px 7%;
     display: flex;
     align-items: center;
@@ -22,7 +28,7 @@ html, body, h1 {
 .naam{
     text-align: center;
     max-width: 80% !important;
-    background-color: rgb(186, 120, 120);
+    background-color: var(--lila);
     padding: 5px;
     margin: 5px;
     display: flex;
@@ -32,13 +38,13 @@ html, body, h1 {
 
 h1{
     font-family: 'Chewy', cursive;
-    color: rgb(255, 255, 255);
+    color: var(--groen);
     font-size: 75px;
 }
 
 .afbeelding{
     max-width: 20% !important;
-    background-color: rgb(186, 120, 120);
+    background-color: var(--lila);
     padding: 5px;
     margin: 5px;
     text-align: justify;
@@ -61,7 +67,7 @@ h1{
 }
 
 .horizontaal {
-    background-color: rgb(252, 140, 140);
+    background-color: var(--groen);
     float: none;
     margin: 0;
     padding: 0 1.5%;
@@ -70,8 +76,8 @@ h1{
 li {
     font-size: 20px;
     width: 14%;
-    color: rgb(17, 17, 17);
-    background-color: rgb(170, 170, 170);
+    color: var(--lila);
+    background-color:  var(--groen);
     padding: 7px 15px;
     margin: 0px 1.5%;
 }
@@ -83,9 +89,10 @@ li {
 
 a {
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color: var(--lila);
 }
 
 a:hover, li:hover {
-    background-color:aliceblue;
+    background-color: var(--lichtlila);
+    color: var(--groen)
 }
