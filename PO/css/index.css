@@ -1,4 +1,4 @@
-html, body, h1 {
+*{
     padding: 0;
     margin: 0;
 }
@@ -11,7 +11,7 @@ html, body, h1 {
 
 .bovenlijn{
     background-color: var(--lila);
-    padding: 15px;
+    padding: 10px 15px;
     margin: 0px;
     text-align: justify;
     display: flex;
@@ -19,7 +19,7 @@ html, body, h1 {
 
 .titel{
     background-color: var(--lila);
-    margin: 5px 7%;
+    margin: 0 7%;
     display: flex;
     align-items: center;
     width: 100%;
@@ -32,31 +32,30 @@ html, body, h1 {
     padding: 5px;
     margin: 5px;
     display: flex;
-    height: 100px;
+    height: 120px;
     align-items: center;
 }
 
 h1{
-    font-family: 'Chewy', cursive;
+    font-family: 'Lobster', cursive;
     color: var(--groen);
-    font-size: 75px;
+    font-size: 85px;
 }
 
 .afbeelding{
     max-width: 20% !important;
     background-color: var(--lila);
-    padding: 5px;
-    margin: 5px;
+    margin: 10px;
     text-align: justify;
     display: flex;
-    height: 100px;
+    height: 120px;
     align-items: center;
     display: inline-block;
 }
 
-.venus{
-    width: 100px;
-    height: 100px;
+.Logo{
+    width: 130px;
+    height: 130px;
     margin: 0px 5px 0px 5px;
 }
 
@@ -69,6 +68,7 @@ h1{
 
 li {
     font-size: 20px;
+    font-family:  'Lobster', cursive;
     width: 14%;
     color: var(--lila);
     background-color:  var(--groen);
