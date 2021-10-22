@@ -105,7 +105,7 @@ a:hover, .link:hover {
 }
 
 .content {
-    background-color: var(--lila);
+    background-color: var(--lichtlila);
     display: inline-block;
 }
 
@@ -120,7 +120,7 @@ a:hover, .link:hover {
 .social {
     margin: 15px 3%;
     padding: 15px;
-    background-color: var(--lichtgroen);
+    background-color: var(--lichtlila);
     display: inline-block;
     display: flex;
 }
@@ -128,7 +128,7 @@ a:hover, .link:hover {
 .informatie{
     margin: 0;
     padding: 0;
-    background-color: var(--lichtgroen);
+    background-color: var(--groen);
     display: inline-block;
     display: flex;
     text-align: center;
@@ -136,9 +136,8 @@ a:hover, .link:hover {
 }
 
 .byme{
-    margin: 15px 40%;
-    padding: 5px;
-    width: 20%;
+    margin: 15px 33%;
+    width: 33%;
     background-color: var(--groen);
     display: inline-block;
     display: flex;
@@ -149,5 +148,8 @@ a:hover, .link:hover {
 
 .byme li{
     margin: 5px;
-    background-color: var(--lichtlila);
+    background-color: var(--groen);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--lichtlila);
 }
