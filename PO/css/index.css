@@ -105,27 +105,31 @@ a:hover, .link:hover {
 }
 
 .content {
+    padding: 30px 3.5%;
     background-color: var(--lichtlila);
     display: inline-block;
 }
 
 .voorstellen {
-    margin: 15px 3%;
-    padding: 15px;
     background-color: var(--lichtlila);
     display: inline-block;
     display: flex;
+}
+
+.voorbeelden {
+    height: 150px;
+    margin: 5px 5px 5px 0;
+    display: flex;
+    display: inline-block;
 }
 
 .social {
-    margin: 15px 3%;
-    padding: 15px;
     background-color: var(--lichtlila);
     display: inline-block;
     display: flex;
 }
 
-.informatie{
+.informatie {
     margin: 0;
     padding: 0;
     background-color: var(--groen);
