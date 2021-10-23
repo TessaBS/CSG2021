@@ -48,11 +48,17 @@ h1 {
     font-size: 85px;
 }
 
+h2 {
+    font-family: 'Lobster', cursive;
+    color: var(--groen);
+    font-size: 20px;
+}
+
 #titel {
     padding: 0;
 }
 
-h1, #grootte {
+h1 #grootte {
     font-size: 83px;
 }
 
