@@ -130,6 +130,18 @@ a:hover, .link:hover {
     display: inline-block;
 }
 
+.social-media {
+    font-size: 17px;
+    font-family:  'Lobster', cursive;
+    width: 100%;
+    color: var(--lila);
+    background-color:  var(--groen);
+    padding: 7px 15px;
+    margin: 5px 0;
+    float: none;
+    text-align: center;
+}
+
 .informatie {
     margin: 0;
     padding: 0;
