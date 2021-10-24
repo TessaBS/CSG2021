@@ -126,17 +126,12 @@ a:hover, .link:hover {
 }
 
 .voorbeelden {
-    height: 200px;
-    margin: 5px 5px 5px 0;
+    max-width: 19.5%;
+    margin: 5px 0.5% 5px 0;
     display: flex;
     display: inline-block;
 }
 
-.social {
-    background-color: var(--lichtlila);
-    display: inline-block;
-    width: 100%;
-}
 
 .informatie {
     margin: 0;
