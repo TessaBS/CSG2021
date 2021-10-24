@@ -4,9 +4,9 @@
 }
 
 :root {
-    --lila:#cfb1cd;
+    --lila:#d1a1cd;
     --groen:#155929;
-    --lichtlila:#ffeffe;
+    --lichtlila:#f3d7f1;
     --lichtgroen: #a3d4b3;
 }
 
@@ -34,7 +34,6 @@ p {
     padding: 10px 0 10px 75px;
     margin: 0px;
     align-items: center;
-    width: 100%;
 }
 
 .titel {
@@ -130,17 +129,22 @@ a:hover, .link:hover {
     display: inline-block;
 }
 
-.social-media {
+.flex {
+    display: flex;
+}
+
+.social-media p{
+    text-align: center !important;
     font-size: 17px;
     font-family:  'Lobster', cursive;
-    width: 100%;
-    color: var(--lila);
-    background-color:  var(--groen);
-    padding: 7px 15px;
+    color:  var(--lila);
+}
+
+.social-media {
+    width: 50%;
     margin: 5px 0;
-    float: none;
-    text-align: center;
-    display: flex;
+    padding: 7px 15px;
+    background-color: var(--groen);
 }
 
 .informatie {
