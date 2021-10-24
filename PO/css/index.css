@@ -35,7 +35,6 @@ p {
     margin: 0px;
     align-items: center;
     width: 100%;
-    display:
 }
 
 .titel {
@@ -87,7 +86,7 @@ h1 #grootte {
     display: flex;
 }
 
-.link{
+.link {
     font-size: 20px;
     font-family:  'Lobster', cursive;
     width: 14%;
@@ -141,7 +140,7 @@ a:hover, .link:hover {
     width: 100%;
 }
 
-.byme{
+.byme {
     margin: 15px 33%;
     width: 33%;
     background-color: var(--groen);
@@ -152,7 +151,7 @@ a:hover, .link:hover {
     list-style-type: none;
 }
 
-.byme li{
+.byme li {
     margin: 5px;
     background-color: var(--groen);
     font-size: 15px;
