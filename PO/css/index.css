@@ -10,9 +10,23 @@
     --lichtgroen: #a3d4b3;
 }
 
+h1 {
+    font-family: 'Lobster', cursive;
+    color: var(--groen);
+    font-size: 85px;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    color: var(--groen);
+    font-size: 20px;
+    text-align: justify;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    text-align: justify;
 }
 
 .bovenlijn {
@@ -40,18 +54,6 @@ p {
     display: flex;
     height: 130px;
     align-items: center;
-}
-
-h1 {
-    font-family: 'Lobster', cursive;
-    color: var(--groen);
-    font-size: 85px;
-}
-
-h2 {
-    font-family: 'Lobster', cursive;
-    color: var(--groen);
-    font-size: 20px;
 }
 
 #titel {
@@ -83,6 +85,7 @@ h1 #grootte {
     float: none;
     margin: 0;
     padding: 0 1.5%;
+    display: flex;
 }
 
 .link{
@@ -118,12 +121,12 @@ a:hover, .link:hover {
 
 .voorstellen {
     background-color: var(--lichtlila);
-    display: inline-block;
-    display: flex;
+    display: inline block;
+    width: 100%;
 }
 
 .voorbeelden {
-    height: 150px;
+    height: 200px;
     margin: 5px 5px 5px 0;
     display: flex;
     display: inline-block;
@@ -132,7 +135,7 @@ a:hover, .link:hover {
 .social {
     background-color: var(--lichtlila);
     display: inline-block;
-    display: flex;
+    width: 100%;
 }
 
 .informatie {
