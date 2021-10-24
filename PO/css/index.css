@@ -120,6 +120,7 @@ a:hover, .link:hover {
     background-color: var(--lichtlila);
     display: inline block;
     width: 100%;
+    margin: 10px;
 }
 
 .voorbeelden {
