@@ -140,6 +140,7 @@ a:hover, .link:hover {
     margin: 5px 0;
     float: none;
     text-align: center;
+    display: flex;
 }
 
 .informatie {
