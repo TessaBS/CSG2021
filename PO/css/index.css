@@ -176,3 +176,7 @@ a:hover, .link:hover {
     font-family: 'Open Sans', sans-serif;
     color: var(--lichtlila);
 }
+
+.katoengaren{
+    height: 250px;
+}
