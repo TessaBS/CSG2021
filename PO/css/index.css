@@ -6,10 +6,10 @@
 }
 
 :root {
-    --lila:#d1a1cd;
+    --lila:#e3abdf;
     --groen:#155929;
-    --lichtlila:#f3d7f1;
-    --lichtgroen: #a3d4b3;
+    --lichtlila:#fbdbf1;
+    --lichtgroen: #c8edc6;
 }
 
 h1 {
@@ -45,17 +45,6 @@ p {
     width: 100%;
 }
 
-.naam {
-    max-width: 80% !important;
-    background-color: var(--lila);
-    padding: 5px;
-    margin: 0 5px;
-    display: flex;
-    height: 130px;
-    align-items: center;
-}
-
-
 .afbeelding {
     max-width: 20%;
     background-color: var(--lila);
@@ -72,8 +61,18 @@ p {
     height: 140px;
 }
 
+.naam {
+    max-width: 80% !important;
+    background-color: var(--lila);
+    padding: 5px;
+    margin: 0 5px;
+    display: flex;
+    height: 130px;
+    align-items: center;
+}
+
 .horizontaal {
-    background-color: var(--groen);
+    background-color: var(--lichtgroen);
     float: none;
     margin: 0;
     padding: 0 1.5%;
@@ -84,8 +83,6 @@ p {
     font-size: 20px;
     font-family:  'Lobster', cursive;
     width: 14%;
-    color: var(--lila);
-    background-color:  var(--groen);
     padding: 7px 15px;
     margin: 0px 1.5%;
 }
@@ -97,7 +94,7 @@ p {
 
 a {
     text-decoration: none;
-    color: var(--lila);
+    color: var(--groen);
 }
 
 a:hover, .link:hover {
@@ -134,7 +131,6 @@ a:hover, .link:hover {
 
 .byme li {
     margin: 5px;
-    background-color: var(--groen);
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     color: var(--lichtlila);
