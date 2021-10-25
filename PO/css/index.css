@@ -1,3 +1,5 @@
+/* algemeen */
+
 * {
     padding: 0;
     margin: 0;
@@ -53,13 +55,6 @@ p {
     align-items: center;
 }
 
-#titel {
-    padding: 0;
-}
-
-h1 #grootte {
-    font-size: 83px;
-}
 
 .afbeelding {
     max-width: 20%;
@@ -116,6 +111,37 @@ a:hover, .link:hover {
     display: inline-block;
 }
 
+.informatie {
+    margin: 0;
+    padding: 0;
+    background-color: var(--groen);
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.byme {
+    margin: 15px 33%;
+    width: 33%;
+    background-color: var(--groen);
+    display: inline-block;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+}
+
+.byme li {
+    margin: 5px;
+    background-color: var(--groen);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--lichtlila);
+}
+
+/* home */
+
 .voorstellen {
     background-color: var(--lichtlila);
     display: inline block;
@@ -148,35 +174,22 @@ a:hover, .link:hover {
     background-color: var(--groen);
 }
 
-.informatie {
-    margin: 0;
-    padding: 0;
-    background-color: var(--groen);
-    display: inline-block;
-    display: flex;
-    text-align: center;
+/* material */
+
+.katoengaren{
+    width: 16%;
+}
+
+.materialen{
     width: 100%;
 }
 
-.byme {
-    margin: 15px 33%;
-    width: 33%;
-    background-color: var(--groen);
-    display: inline-block;
-    display: flex;
-    display: inline-block;
-    text-align: center;
-    list-style-type: none;
+/* armbandjes*/
+
+#titel {
+    padding: 0;
 }
 
-.byme li {
-    margin: 5px;
-    background-color: var(--groen);
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    color: var(--lichtlila);
-}
-
-.katoengaren{
-    height: 250px;
+h1 #grootte {
+    font-size: 83px;
 }
