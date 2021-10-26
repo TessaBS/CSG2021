@@ -172,10 +172,19 @@ a:hover, .link:hover {
 
 /* material */
 
-.katoengaren{
+.sostrenegrene{
     width: 16%;
 }
 
 .materialen{
     width: 100%;
+}
+
+.katoengaren{
+    width: 100%;
+}
+
+.hema{
+    width: 14%;
+    margin: 0 2,6666666667% 0 0;
 }
