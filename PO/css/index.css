@@ -31,6 +31,12 @@ p {
     text-align: justify;
 }
 
+iframe{
+    width: 960px;
+    height: 540px;
+    margin: 10px;
+}
+
 .bovenlijn {
     background-color: var(--lila);
     padding: 10px 0 10px 75px;
@@ -178,15 +184,15 @@ a:hover, .link:hover {
 
 .sostrenegrene {
     width: 16%;
-    margin: 0 2px 0 0;
+    margin: 5px 2px 5px 0;
 }
 
 .hema {
     height: 400px;
-    margin: 0 2px 0 0;
+    margin: 5px 2px 5px 0;
 }
 
 .action {
     width: 30%;
-    margin: 0 3% 0 0
+    margin: 5px 3% 5px 0
 }
