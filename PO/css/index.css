@@ -140,7 +140,7 @@ a:hover, .link:hover {
 
 .voorstellen {
     background-color: var(--lichtlila);
-    display: inline block;
+    display: inline-block;
     width: 100%;
     margin: 10px;
 }
@@ -156,7 +156,7 @@ a:hover, .link:hover {
     display: flex;
 }
 
-.social-media p{
+.social-media p {
     text-align: center !important;
     font-size: 17px;
     font-family:  'Lobster', cursive;
@@ -172,19 +172,21 @@ a:hover, .link:hover {
 
 /* material */
 
-.sostrenegrene{
+.materialen {
+    width: 100%;
+}
+
+.sostrenegrene {
     width: 16%;
+    margin: 0 2px 0 0;
 }
 
-.materialen{
-    width: 100%;
-}
-
-.katoengaren{
-    width: 100%;
-}
-
-.hema{
+.hema {
     height: 400px;
-    margin: 0 2,6666666667% 0 0;
+    margin: 0 2px 0 0;
+}
+
+.action {
+    width: 30%;
+    margin: 0 3% 0 0
 }
