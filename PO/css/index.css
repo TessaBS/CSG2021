@@ -41,6 +41,7 @@ iframe {
     width: 960px;
     height: 540px;
     margin: 10px;
+    border: 0; 
 }
 
 .bovenlijn {
