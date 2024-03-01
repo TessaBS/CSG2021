@@ -41,13 +41,6 @@ p {
     padding: 0px 0px 0px 10px;
 }
 
-iframe {
-    width: 960px;
-    height: 540px;
-    margin: 10px;
-    border: 0; 
-}
-
 .bovenlijn {
     background-color: var(--oranje);
     padding: 10px 0 10px 75px;
@@ -63,8 +56,12 @@ iframe {
 }
 
 .Uitleg {
-    width: 1000px;
-    height: 700px;
+    width: 600px;
+}
+
+.D-model{
+    width: 500px;
+    height: 250px;
     margin: 50px;
 }
 
@@ -96,7 +93,7 @@ a {
 
 a:hover, .link:hover {
     background-color: var(--lichtoranje);
-    color: var(--donkerblauw)
+    color: var(--oranje)
 }
 
 .content {
@@ -153,26 +150,4 @@ a:hover, .link:hover {
     background-color: var(--oranje);
 }
 
-/* material */
 
-.sostrenegrene {
-    width: 16%;
-    margin: 0 2px 0 0;
-}
-
-.hema {
-    height: 400px;
-    margin: 0 2px 0 0;
-}
-
-.action {
-    width: 30%;
-    margin: 0 3% 0 0;
-}
-
-/* patronen */
-
-.patronen {
-    height: 300px;
-    margin: 5px;
-}
