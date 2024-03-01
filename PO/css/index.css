@@ -37,6 +37,13 @@ p {
     margin: 10px 0;
 }
 
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    margin: 0 20px;
+}
+
 .list {
     padding: 0px 0px 0px 10px;
 }
@@ -56,7 +63,7 @@ p {
 }
 
 .Uitleg {
-    width: 600px;
+    width: 750px;
 }
 
 .D-model{
@@ -91,10 +98,19 @@ a {
     color: var(--donkerblauw);
 }
 
-a:hover, .link:hover {
+.link a:hover, .link:hover {
     background-color: var(--lichtoranje);
     color: var(--oranje)
 }
+
+.link p a{
+    color: var(--oranje);
+}
+
+.link p a:hover{
+    color: var(--lichtblauw)
+}
+
 
 .content {
     padding: 30px 3.5%;
@@ -136,18 +152,20 @@ a:hover, .link:hover {
     display: flex;
 }
 
-.social-media p {
+.belangrijke_links p {
     text-align: center;
     font-size: 18px;
     font-family:  'Lobster', cursive;
     color:  var(--donkerblauw);
 }
 
-.social-media {
+.belangrijke_links {
     width: 50%;
     margin: 5px 0;
     padding: 7px 15px;
     background-color: var(--oranje);
 }
 
-
+.belangrijke_links a:hover{
+    color: var(--lichtoranje)
+}
