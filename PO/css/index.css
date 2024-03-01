@@ -37,6 +37,10 @@ p {
     margin: 10px 0;
 }
 
+.list {
+    padding: 0px 0px 0px 10px;
+}
+
 iframe {
     width: 960px;
     height: 540px;
