@@ -6,17 +6,17 @@
 }
 
 :root {
-    --lila:#e3abdf;
-    --groen:#155929;
-    --lichtlila:#fbdbf1;
-    --lichtgroen: #c8edc6;
+    --lichtoranje:#fbe2db;
+    --lichtblauw: #c6c8ed;
+    --oranje: #fc996e;
+    --donkerblauw: #020145fd;
 }
 
 h1 {
     font-family: 'Lobster', cursive;
-    color: var(--groen);
+    color: var(--donkerblauw);
     font-size: 85px;
-    background-color: var(--lila);
+    background-color: var(--oranje);
     margin: 5px 10px;
     max-width: 70%;
     display: flex;
@@ -24,7 +24,7 @@ h1 {
 
 h2 {
     font-family: 'Lobster', cursive;
-    color: var(--groen);
+    color: var(--donkerblauw);
     font-size: 20px;
     text-align: justify;
     margin: 10px 0;
@@ -45,7 +45,7 @@ iframe {
 }
 
 .bovenlijn {
-    background-color: var(--lila);
+    background-color: var(--oranje);
     padding: 10px 0 10px 75px;
     margin: 0px;
     align-items: center;
@@ -58,8 +58,14 @@ iframe {
     margin: 10px;
 }
 
+.Uitleg {
+    width: 1000px;
+    height: 700px;
+    margin: 50px;
+}
+
 .horizontaal {
-    background-color: var(--lichtgroen);
+    background-color: var(--lichtblauw);
     float: none;
     margin: 0;
     padding: 0 1.5%;
@@ -81,30 +87,30 @@ iframe {
 
 a {
     text-decoration: none;
-    color: var(--groen);
+    color: var(--donkerblauw);
 }
 
 a:hover, .link:hover {
-    background-color: var(--lichtlila);
-    color: var(--groen)
+    background-color: var(--lichtoranje);
+    color: var(--donkerblauw)
 }
 
 .content {
     padding: 30px 3.5%;
-    background-color: var(--lichtlila);
+    background-color: var(--lichtoranje);
 }
 
 .informatie {
     margin: 0;
     padding: 0;
-    background-color: var(--groen);
+    background-color: var(--donkerblauw);
     width: 100%;
 }
 
 .byme {
     margin: 15px 33%;
     width: 33%;
-    background-color: var(--groen);
+    background-color: var(--donkerblauw);
     display: inline-block;
     text-align: center;
     list-style-type: none;
@@ -114,7 +120,7 @@ a:hover, .link:hover {
     margin: 5px;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
-    color: var(--lichtlila);
+    color: var(--lichtoranje);
     text-align: center;
 }
 
@@ -133,14 +139,14 @@ a:hover, .link:hover {
     text-align: center;
     font-size: 18px;
     font-family:  'Lobster', cursive;
-    color:  var(--groen);
+    color:  var(--donkerblauw);
 }
 
 .social-media {
     width: 50%;
     margin: 5px 0;
     padding: 7px 15px;
-    background-color: var(--lila);
+    background-color: var(--oranje);
 }
 
 /* material */
