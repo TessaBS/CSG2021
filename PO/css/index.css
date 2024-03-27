@@ -105,10 +105,12 @@ a {
 
 .link p a{
     color: var(--oranje);
+    font-family: cursive;
 }
 
 .link p a:hover{
-    color: var(--lichtblauw)
+    color: var(--lichtblauw);
+    font-family: cursive;
 }
 
 
